@@ -1,2 +1,6 @@
 /creds
-/.terraform
+/.terraform*
+/secret.auto.tfvars
+/terraform.tfstate
+/terraform.tfstate.backup
+deploy-directus.*

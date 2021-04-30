@@ -1,4 +1,5 @@
 provider "aws" {
   region = var.region
-  shared_credentials_file = "creds"
+  access_key = var.aws_access_key
+  secret_key = var.aws_secret_key
 }
